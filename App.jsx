@@ -39,8 +39,29 @@ const HeaderTop = () => {
 
 const RestCardsCont = () => {
   return (
-    <div>
-      <div>bodys main cards</div>
+    <div
+      style={{
+        width: "400px",
+        backgroundColor: "#eae8e8",
+        padding: "0.8rem",
+        borderRadius: "1 rem",
+        flexWrap: "wrap",
+      }}
+    >
+      <div>
+        <img
+          height="100%"
+          width="100%"
+          src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/RX_THUMBNAIL/IMAGES/VENDOR/2025/6/18/bced9b52-f88c-4869-93f9-bafb284d7f83_240185.jpg"
+          alt="image not loaded"
+        />
+      </div>
+      <div>
+        <h2>Burgur king</h2>
+        <h3>4.3 Rating</h3>
+        <h3>Burgur american</h3>
+        <h3>Toli chowki</h3>
+      </div>
     </div>
   );
 };
